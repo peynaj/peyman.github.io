@@ -1,13 +1,30 @@
+@font-face {
+  font-family: MonoFont;
+  src: url(courier.ttf);
+}
+
 #MyNameHeader {
-    font-family: "Courier New", Courier, monospace;
-    font-size:30px;
+    font-family: MonoFont, monospace, "Courier New", Courier;
+    font-size:40px;
     font-weight:bold;
     display: inline ;
     margin-left: 15px;
     margin-top: 15px;
-    
     padding: 4px;
-    
+}
+
+#MyJob {
+    font-family: MonoFont, monospace, "Courier New", Courier;
+    font-size:25px;
+    font-weight:bold;
+    margin-left: 15px;
+}
+
+#MyEmail {
+    font-family: MonoFont, monospace, "Courier New", Courier;
+    font-size:15px;
+    font-weight:bold;
+    margin-left: 20px;
 }
 @keyframes blink {
   50% {
