@@ -1,0 +1,19 @@
+/*.do-reveal {*/
+/*    color: inherit !important;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.redacted {
+    border-radius: 4px;
+    background: rgba(200, 200, 200, .5);
+    display: inline-block;
+    line-height: 1.2em;
+}
+
+.copy-to-clipboard {
+    cursor: pointer;
+}
+
+div.md-supported {
+    margin: 0 !important;
+}
